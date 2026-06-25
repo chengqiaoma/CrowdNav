@@ -4,21 +4,81 @@
 <head>
   <meta charset="UTF-8">
   <title>CrowdNav Real-world Experiment Video</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #222222;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      color: #555555;
+      margin-bottom: 30px;
+    }
+
+    video {
+      width: 100%;
+      max-width: 960px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #dddddd;
+      border-radius: 8px;
+      background-color: #000000;
+    }
+
+    .links {
+      margin-top: 25px;
+      font-size: 18px;
+    }
+
+    .links a {
+      margin: 0 12px;
+      color: #0969da;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+
 </head>
+
 <body>
-  <h2>Real-world Deployment Video</h2>
+  <div class="container">
+    <h1>Real-world Deployment Video</h1>
+    <div class="subtitle">
+      Supplementary real-world experiment video for CrowdNav.
+    </div>
 
-  <video width="960" controls preload="metadata">
-    <source src="https://github.com/chengqiaoma/CrowdNav/releases/download/v1.0-video/real_world_deployment.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+```
+<video controls preload="metadata">
+  <source src="https://github.com/chengqiaoma/CrowdNav/releases/download/v1.0-video/real_world_deployment.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-  <p>
-    <a href="https://github.com/chengqiaoma/CrowdNav/releases/download/v1.0-video/real_world_deployment.mp4">Open video directly</a>
-  </p>
+<div class="links">
+  <a href="https://github.com/chengqiaoma/CrowdNav/releases/download/v1.0-video/real_world_deployment.mp4">Open video directly</a>
+  <a href="https://github.com/chengqiaoma/CrowdNav">Back to GitHub repository</a>
+</div>
+```
 
-  <p>
-    <a href="https://github.com/chengqiaoma/CrowdNav">Back to GitHub repository</a>
-  </p>
+  </div>
 </body>
 </html>
