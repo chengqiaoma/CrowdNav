@@ -2,12 +2,13 @@
 
 Volatility-aware constrained reinforcement learning for safe crowd navigation.
 
-## Real-world Experiment Video
+## Source Code and Real-world Experiment Video
 
-The real-world deployment video can be viewed online:
+The source code and real-world deployment video are provided in this repository.
 
-[▶ Watch the real-world deployment video](https://chengqiaoma.github.io/CrowdNav/)
+* [▶ Watch the real-world deployment video](https://chengqiaoma.github.io/CrowdNav/)
+* [Open the original MP4 file](https://github.com/chengqiaoma/CrowdNav/releases/download/v1.0-video/real_world_deployment.mp4)
 
-If the video page does not load properly, the original MP4 file is also available here:
+## Overview
 
-[Download / open MP4](video/Real-world%20Deployment.mp4)
+This repository provides the implementation and supplementary real-world deployment video for the proposed safe crowd navigation method.
